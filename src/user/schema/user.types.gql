@@ -1,0 +1,18 @@
+type UserProperties {
+  name: String
+  email: String
+  canDisplay: Boolean
+  isDeleted: Boolean
+  canDelete: Boolean
+  createdBy: String
+  updatedAt: String
+  createdAt: String
+}
+
+type User {
+  id: Int
+  labels: [String]
+  properties: UserProperties
+}
+
+
